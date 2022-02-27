@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph3"
+    app:startDestination="@id/thirdFirstFragment">
+
+    <fragment
+        android:id="@+id/thirdFirstFragment"
+        android:name="com.example.finalproject.games.tourFragments.ThirdFirstFragment"
+        android:label="ThirdFirstFragment"
+        tools:layout="@layout/fragment_third_first" >
+        <action
+            android:id="@+id/action_thirdFirstFragment_to_toursActivity3"
+            app:destination="@id/toursActivity3" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdSecondFragment"
+        android:name="com.example.finalproject.games.tourFragments.ThirdSecondFragment"
+        android:label="ThirdSecondFragment"
+        tools:layout="@layout/fragment_third_second">
+        <action
+            android:id="@+id/action_thirdSecondFragment_to_youWinActivity"
+            app:destination="@id/youWinActivity" />
+        <action
+            android:id="@+id/action_thirdSecondFragment_to_toursActivity3"
+            app:destination="@id/toursActivity3" />
+    </fragment>
+    <activity
+        android:id="@+id/youWinActivity"
+        android:name="com.example.finalproject.games.guessWordActivities.YouWonActivity"
+        android:label="activity_you_win"
+        tools:layout="@layout/activity_you_win" />
+    <activity
+        android:id="@+id/toursActivity3"
+        android:name="com.example.finalproject.games.guessWordActivities.ToursActivity"
+        android:label="activity_tours"
+        tools:layout="@layout/activity_tours" />
+</navigation>

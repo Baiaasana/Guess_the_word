@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/TSImageExit"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/TSImage2"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vezuvi2" />
+
+    <ImageView
+        android:id="@+id/TSImage1"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vezuvi1" />
+
+    <EditText
+        android:id="@+id/TSWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="248dp"
+        android:hint="ბათურა"
+        android:letterSpacing="1.7"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:paddingStart="32dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/TSImage4"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="240dp"
+        android:src="@drawable/ic_baseline_crop_portrait_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TSImage3" />
+
+    <ImageView
+        android:id="@+id/TSImage6"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TSImage5"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/TSImage7"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TSImage6"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/TSImage8"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TSImage7"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/TSImage3"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/TSImage5"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TSImage4"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <Button
+        android:id="@+id/TSSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="184dp"
+        android:text="შეყვანა"
+        android:textSize="22sp"
+        android:backgroundTint="#075153"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

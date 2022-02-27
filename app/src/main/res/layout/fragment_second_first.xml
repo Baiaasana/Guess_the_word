@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/SFImageExit"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/SFImage2"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/punti2" />
+
+    <ImageView
+        android:id="@+id/SFImage1"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/punti1" />
+
+    <EditText
+        android:id="@+id/SFWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
+        android:ems="10"
+        android:hint="ბათურ"
+        android:letterSpacing="2.1"
+        android:maxLength="5"
+        android:paddingStart="4dp"
+        android:paddingBottom="15dp"
+        android:textColor="#1B605A"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/SFImage7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SFImage6"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/SFImage4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="232dp"
+        android:src="@drawable/ic_baseline_crop_portrait_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SFImage3" />
+
+    <ImageView
+        android:id="@+id/SFImage3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/SFImage6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/SFImage5"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/SFImage5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SFImage4"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <Button
+        android:id="@+id/SFSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="152dp"
+        android:text="შეყვანა"
+        android:backgroundTint="#075153"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

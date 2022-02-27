@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/FSImageExit"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit" />
+    <ImageView
+        android:id="@+id/FSImage2"
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/asia2" />
+
+    <ImageView
+        android:id="@+id/FSImage1"
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/asia1" />
+
+
+    <ImageView
+        android:id="@+id/FSImage3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="252dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/FSImage5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="252dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FSImage4"
+        app:srcCompat="@drawable/ic_baseline_crop_portrait_24" />
+
+    <ImageView
+        android:id="@+id/FSImage6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/ic_baseline_crop_portrait_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/FSImage5" />
+
+    <ImageView
+        android:id="@+id/FSImage4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="252dp"
+        android:src="@drawable/ic_baseline_crop_portrait_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FSImage3" />
+
+    <EditText
+        android:id="@+id/FSWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="260dp"
+        android:ems="10"
+        android:hint="ბათუ"
+        android:letterSpacing="1.9"
+        android:maxLength="4"
+        android:paddingStart="46dp"
+        android:textColor="#1B605A"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/FSSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="176dp"
+        android:text="შეყვანა"
+        android:backgroundTint="#075153"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

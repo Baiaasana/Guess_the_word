@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph1"
+    app:startDestination="@id/firstFirstFragment">
+
+
+    <fragment
+        android:id="@+id/firstFirstFragment"
+        android:name="com.example.finalproject.games.tourFragments.FirstFirstFragment"
+        android:label="FirstFirstFragment"
+        tools:layout="@layout/fragment_first_first">
+        <action
+            android:id="@+id/action_firstFirstFragment_to_toursActivity"
+            app:destination="@id/toursActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstSecondFragment"
+        android:name="com.example.finalproject.games.tourFragments.FirstSecondFragment"
+        android:label="FirstSecondFragment"
+        tools:layout="@layout/fragment_first_second">
+        <action
+            android:id="@+id/action_firstSecondFragment_to_toursActivity"
+            app:destination="@id/toursActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/toursActivity"
+        android:name="com.example.finalproject.games.guessWordActivities.ToursActivity"
+        android:label="activity_tours"
+        tools:layout="@layout/activity_tours" />
+
+</navigation>

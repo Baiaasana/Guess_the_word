@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/set"
+    tools:context=".SettingsActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                app:srcCompat="@drawable/photos_24" />
+
+            <TextView
+                android:id="@+id/settingsChangePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingStart="45dp"
+                android:text="change photo"
+                android:textColor="#282727"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteY="422dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                app:srcCompat="@drawable/ic_baseline_password_24" />
+
+            <TextView
+                android:id="@+id/settingsChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingStart="45dp"
+                android:text="change password"
+                android:textColor="#282727"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteY="512dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                app:srcCompat="@drawable/ic_baseline_logout_24" />
+
+            <TextView
+                android:id="@+id/settingsProfileLogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingStart="45dp"
+                android:text="log out"
+                android:textColor="#282727"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteY="603dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="227dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="139dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
